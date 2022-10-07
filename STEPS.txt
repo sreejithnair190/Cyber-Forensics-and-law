@@ -1,0 +1,39 @@
+prac 7: Create forensic image of digital devices from volatile data such as memory using imager for computer system software. FTK imager
+
+prac 8: Recovering and inspecting deleted files software: Autopsy
+
+prac 9: Access the relevant information from windows registry for investigation process using registery view Software: RegEdit
+1: Acessing the directory start RegEdit
+
+2: wireless evidence in the register 
+RegEdit>HKEY_LOCAL_MACHINE>Software>microsoft>windowsNT>currentVersion>networkList>Profiles
+
+3: The recent docs key 
+Regedit>HKEY_LOCAL_MACHINE>Software>microsoft>Internet Explorer>typed urls 
+
+4: typed urls key 
+Regedit>HKEY_LOCAL_MACHINE>Software>microsoft>windows>currentversion>explorer>recentDocs 
+
+5: ip address
+Regedit>HKEY_LOCAL_MACHINE>System>Currentcontrolset>services>tcpip>parameters>interfaces
+
+6: startup location in the registry 
+Regedit>HKEY_LOCAL_MACHINE>software>microsoft>windows>currentversion>run
+
+7: run once startup 
+Regedit>HKEY_LOCAL_MACHINE>Software>microsoft>windows>currentVersion>run once
+
+8: startup services 
+Regedit>HKEY_LOCAL_MACHINE>System>currentControlset>services
+
+9: start legacy application 
+RegEdit>HKEY_LOCAL_MACHINE >System>CurrentControlSet>control>WDI 
+
+10: start when a particular user logs on 
+Regedit>HKEY_LOCAL_MACHINE>Software>microsoft>windows>currentVersion>run
+
+11: usb storage device 
+Regedit>HKEY_LOCAL_MACHINE>System>CurrentControlset00x>enum>USBSTOR
+
+12: mounted device 
+RegEdit>HKEY_LOCAL_MACHINE>System>Mounted Device
